@@ -6,75 +6,24 @@
   font-family: "Open Sans", sans-serif;
 }
 
-body {
-  background-color: black;
-}
-
-/* Barra de Navegación */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  padding: 10px;
-  top: 0px;
-  background-color: black;
-  opacity: 0.9;
-  min-height: 100px;
-}
-
 .logo {
-  display: flex;
-  align-items: center;
   transition: 0.5s;
-}
-
-.logo img {
-  height: 125px;
 }
 
 .logo:hover {
   transform: scale(1.1);
 }
 
-.menu {
-  list-style-type: none;
-  display: flex;
-}
-
-.menu a {
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
-  padding-right: 15px;
-}
-
-.menu a:hover {
+.navbar-nav a:hover {
   color: #ba9d5a;
 }
 
-.menu li {
+.navbar-nav li {
   transition: 0.5s;
 }
 
-.menu li:hover {
+.navbar-nav li:hover {
   transform: scale(1.1);
-}
-
-@media screen and (max-width: 575px) {
-  header {
-    padding: 10px 0px;
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 530px) {
-  .menu {
-    justify-content: center;
-    margin-left: 10px;
-    padding: 10px 0px;
-    flex-wrap: wrap;
-  }
 }
 
 /* Pie de pagina */
