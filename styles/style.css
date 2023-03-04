@@ -192,12 +192,3 @@ input[type="reset"] {
 input[type="reset"]:hover {
   color: #ba9d5a;
 }
-
-/* Servicios */
-.Servicios {
-  background-image: url(../img/Foto-Novios-Servicios.jpg);
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
