@@ -42,10 +42,10 @@ body {
   transform: scale(1.1);
 }
 
-/* Pie de pagina */
 .text-center {
   margin-top: 5px;
 }
+
 .Volver-Arriba {
   margin-bottom: 5px;
   margin-top: 5px;
@@ -78,7 +78,6 @@ body {
   color: #ba9d5a;
 }
 
-/* Contenido Index*/
 .Bienvenida {
   display: flex;
   justify-content: center;
@@ -90,23 +89,11 @@ body {
   margin: auto;
   padding: 50px;
 }
+
 .Foto-Principal {
   display: flex;
 }
-@media screen and (max-width: 1200px) {
-  .Bienvenida {
-    padding: 10px 0px;
-    flex-wrap: wrap;
-  }
-}
 
-@media screen and (max-width: 1200px) {
-  .Foto-Principal {
-    width: 100%;
-  }
-}
-
-/* Formulario de contacto / contacto.html */
 .fondo-contacto {
   height: 100%;
   background-image: url("https://www.trustedreviews.com/wp-content/uploads/sites/54/2021/03/Screenshot-2021-03-02-at-3.06.20-PM-920x501.png");
@@ -135,9 +122,9 @@ label {
   display: block;
 }
 
-input[type="text"],
-input[type="email"],
-select[name="civil"],
+input[type=text],
+input[type=email],
+select[name=civil],
 option {
   background-color: white;
 }
@@ -152,7 +139,7 @@ textarea {
   box-sizing: border-box;
 }
 
-input[type="checkbox"] {
+input[type=checkbox] {
   display: inline-block;
   margin-left: 10px;
 }
@@ -161,7 +148,7 @@ textarea {
   resize: none;
 }
 
-input[type="submit"] {
+input[type=submit] {
   width: 100%;
   padding: 10px;
   margin-top: 20px;
@@ -173,11 +160,11 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+input[type=submit]:hover {
   color: #ba9d5a;
 }
 
-input[type="reset"] {
+input[type=reset] {
   width: 100%;
   padding: 10px;
   margin-top: 20px;
@@ -189,10 +176,22 @@ input[type="reset"] {
   cursor: pointer;
 }
 
-input[type="reset"]:hover {
+input[type=reset]:hover {
   color: #ba9d5a;
 }
 
 .card-img-overlay {
   text-shadow: 1px 1px black;
 }
+
+@media screen and (max-width: 1200px) {
+  .Bienvenida {
+    padding: 10px 0px;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Foto-Principal {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
