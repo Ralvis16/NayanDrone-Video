@@ -1,19 +1,19 @@
 .logo {
-    transition: 0.5s;
+  transition: 0.5s;
 
-    &:hover {
-      transform: scale(1.1);
-    }
+  &:hover {
+    transform: scale(1.1);
   }
-  
-  .navbar-nav a:hover {
-    color: #ba9d5a;
-  }
-  
-  .navbar-nav li {
-    transition: 0.5s;
+}
 
-    &:hover {
-      transform: scale(1.1);
-    }
+.navbar-nav a:hover {
+  color: #ba9d5a;
+}
+
+.navbar-nav li {
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
   }
+}
