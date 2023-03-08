@@ -1,34 +1,34 @@
 .text-center {
-    margin-top: 5px;
-  }
-  .Volver-Arriba {
-    margin-bottom: 5px;
-    margin-top: 5px;
-  }
-  
-  .Volver-Arriba a {
+  margin-top: 5px;
+}
+.Volver-Arriba {
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+  a {
     text-decoration: none;
     color: white;
     transition: 0.5s;
+
+    &:hover {
+      color: #ba9d5a;
+    }
   }
-  
-  .Volver-Arriba a:hover {
-    color: #ba9d5a;
-  }
-  
-  .Redes-Sociales {
-    margin-bottom: 5px;
-    margin-top: 5px;
-  }
-  
-  .Redes-Sociales a {
+}
+
+.Redes-Sociales {
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+  a {
     margin: 0 5px;
     font-size: 20px;
     color: white;
     text-decoration: none;
     transition: 0.5s;
+
+    &:hover {
+      color: #ba9d5a;
+    }
   }
-  
-  .Redes-Sociales a:hover {
-    color: #ba9d5a;
-  }
+}

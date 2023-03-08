@@ -1,9 +1,9 @@
 .logo {
     transition: 0.5s;
-  }
-  
-  .logo:hover {
-    transform: scale(1.1);
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
   
   .navbar-nav a:hover {
@@ -12,8 +12,8 @@
   
   .navbar-nav li {
     transition: 0.5s;
-  }
-  
-  .navbar-nav li:hover {
-    transform: scale(1.1);
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }

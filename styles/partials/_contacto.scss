@@ -41,17 +41,14 @@
     border: 1px solid #ccc;
     font-size: 16px;
     box-sizing: border-box;
+    resize: none;
   }
   
   input[type="checkbox"] {
     display: inline-block;
     margin-left: 10px;
   }
-  
-  textarea {
-    resize: none;
-  }
-  
+ 
   input[type="submit"] {
     width: 100%;
     padding: 10px;
@@ -62,10 +59,10 @@
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    color: #ba9d5a;
+
+    &:hover {
+      color: #ba9d5a;
+    }
   }
   
   input[type="reset"] {
@@ -78,10 +75,10 @@
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-  }
-  
-  input[type="reset"]:hover {
-    color: #ba9d5a;
+
+    &:hover {
+      color: #ba9d5a;
+    }
   }
   
   .card-img-overlay {
