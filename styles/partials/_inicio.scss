@@ -3,12 +3,13 @@
   justify-content: center;
   background-color: black;
   color: white;
+
+  .Texto-Bienvenida {
+    margin: auto;
+    padding: 50px;
+  }
 }
 
-.Texto-Bienvenida {
-  margin: auto;
-  padding: 50px;
-}
 .Foto-Principal {
   display: flex;
 }

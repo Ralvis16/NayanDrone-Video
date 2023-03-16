@@ -43,32 +43,30 @@ body {
 .text-center {
   margin-top: 5px;
 }
-
-.Volver-Arriba {
+.text-center .Volver-Arriba {
   margin-bottom: 5px;
   margin-top: 5px;
 }
-.Volver-Arriba a {
+.text-center .Volver-Arriba a {
   text-decoration: none;
   color: white;
   transition: 0.5s;
 }
-.Volver-Arriba a:hover {
+.text-center .Volver-Arriba a:hover {
   color: #ba9d5a;
 }
-
-.Redes-Sociales {
+.text-center .Redes-Sociales {
   margin-bottom: 5px;
   margin-top: 5px;
 }
-.Redes-Sociales a {
+.text-center .Redes-Sociales a {
   margin: 0 5px;
   font-size: 20px;
   color: white;
   text-decoration: none;
   transition: 0.5s;
 }
-.Redes-Sociales a:hover {
+.text-center .Redes-Sociales a:hover {
   color: #ba9d5a;
 }
 
@@ -78,8 +76,7 @@ body {
   background-color: black;
   color: white;
 }
-
-.Texto-Bienvenida {
+.Bienvenida .Texto-Bienvenida {
   margin: auto;
   padding: 50px;
 }
