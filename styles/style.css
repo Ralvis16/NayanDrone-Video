@@ -91,11 +91,9 @@ body {
   background-size: cover;
   background-position: center center;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
 }
-
-form {
+.fondo-contacto form {
   animation: scale-up-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   display: flex;
   flex-flow: column wrap;
@@ -104,7 +102,7 @@ form {
   background-color: #ba9d5a;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-  width: 500px;
+  width: 400px;
 }
 @keyframes scale-up-bottom {
   0% {
@@ -116,21 +114,18 @@ form {
     transform-origin: 50% 100%;
   }
 }
-
-label {
+.fondo-contacto label {
   font-weight: bold;
   margin-top: 10px;
   display: block;
 }
-
-input[type=text],
-input[type=email],
-select[name=civil],
-option {
+.fondo-contacto input[type=text],
+.fondo-contacto input[type=email],
+.fondo-contacto select[name=civil],
+.fondo-contacto option {
   background-color: white;
 }
-
-textarea {
+.fondo-contacto textarea {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -140,13 +135,11 @@ textarea {
   box-sizing: border-box;
   resize: none;
 }
-
-input[type=checkbox] {
+.fondo-contacto input[type=checkbox] {
   display: inline-block;
   margin-left: 10px;
 }
-
-input[type=submit] {
+.fondo-contacto input[type=submit] {
   width: 100%;
   padding: 10px;
   margin-top: 20px;
@@ -157,11 +150,10 @@ input[type=submit] {
   font-size: 16px;
   cursor: pointer;
 }
-input[type=submit]:hover {
+.fondo-contacto input[type=submit]:hover {
   color: #ba9d5a;
 }
-
-input[type=reset] {
+.fondo-contacto input[type=reset] {
   width: 100%;
   padding: 10px;
   margin-top: 20px;
@@ -172,8 +164,14 @@ input[type=reset] {
   font-size: 16px;
   cursor: pointer;
 }
-input[type=reset]:hover {
+.fondo-contacto input[type=reset]:hover {
   color: #ba9d5a;
+}
+.fondo-contacto .mapa {
+  margin: auto;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
 }
 
 .card-img-overlay {
