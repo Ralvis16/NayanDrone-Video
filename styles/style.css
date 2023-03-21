@@ -169,7 +169,6 @@ body {
 }
 .fondo-contacto .mapa {
   margin: auto;
-  border-radius: 30px;
   padding: 20px;
   display: flex;
 }
