@@ -10,3 +10,13 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .navbar-nav li {
+    transition: 0.5s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

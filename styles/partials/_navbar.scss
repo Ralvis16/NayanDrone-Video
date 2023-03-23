@@ -9,11 +9,3 @@
 .navbar-nav a:hover {
   color: #ba9d5a;
 }
-
-.navbar-nav li {
-  transition: 0.5s;
-
-  &:hover {
-    transform: scale(1.1);
-  }
-}

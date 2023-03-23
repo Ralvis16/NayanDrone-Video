@@ -33,13 +33,6 @@ body {
   color: #ba9d5a;
 }
 
-.navbar-nav li {
-  transition: 0.5s;
-}
-.navbar-nav li:hover {
-  transform: scale(1.1);
-}
-
 .text-center {
   margin-top: 5px;
 }
@@ -245,5 +238,13 @@ body {
 @media screen and (max-width: 1200px) {
   .Foto-Principal {
     width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar-nav li {
+    transition: 0.5s;
+  }
+  .navbar-nav li:hover {
+    transform: scale(1.1);
   }
 }/*# sourceMappingURL=style.css.map */
