@@ -240,6 +240,14 @@ body {
     width: 100%;
   }
 }
+@media screen and (max-width: 992px) {
+  .navbar-nav li {
+    transition: 0.5s;
+  }
+  .navbar-nav li:hover {
+    transform: scaleX(1) translateX(20px);
+  }
+}
 @media screen and (min-width: 992px) {
   .navbar-nav li {
     transition: 0.5s;
