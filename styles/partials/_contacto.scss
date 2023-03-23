@@ -1,10 +1,11 @@
 .fondo-contacto {
-  background-image: url("https://www.trustedreviews.com/wp-content/uploads/sites/54/2021/03/Screenshot-2021-03-02-at-3.06.20-PM-920x501.png");
+  background-image: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   display: flex;
   flex-wrap: wrap;
+  padding-block: 20px;
 
 form {
 	-webkit-animation: scale-up-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -16,7 +17,7 @@ form {
   background-color: #ba9d5a;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-  width: 400px;
+  width: 300px;
 
   @-webkit-keyframes scale-up-bottom {
     0% {
